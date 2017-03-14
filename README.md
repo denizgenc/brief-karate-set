@@ -1,4 +1,4 @@
-# briefkarateset
+# brief-karate-set
 A button setting program for the game Brief Karate Foolish, written in Python
 -----
 
