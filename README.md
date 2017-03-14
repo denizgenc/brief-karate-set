@@ -21,15 +21,19 @@ This program will take joystick input, handling it with PyGame, and write a file
 
 To make it easy, make the button setting automatically move down a list so people don't have to keep clicking. To achieve that, you should also make sure that the game only records when a *new* button is pressed down, so as to slightly help with sloppily pianoing the buttons while setting.
 
-Package the program with py2exe or something similar. Read up on that.
+Package the program with py2exe or something similar (maybe PyInstaller). Read up on that.
 
 -----
 
 ### Build Instructions
 
-1. Run py2exe   
+You should probably run `git clone https://github.com/denizgenc/briefkarateset.git` , then build, following these steps:
+
+1. Run py2exe/PyInstaller
 2. ...
 3. PROFIT!
+
+Most people should just download the builds I make though. Make sure to add a **DOWNLOAD** header for those peeps.
 
 -----
 
@@ -37,6 +41,7 @@ Package the program with py2exe or something similar. Read up on that.
 
 - Learn the basics of joystick handling through PyGame
 - Learn how to package Python projects as executables.
+    - Add a **DOWNLOAD** header once a build is created.
 - Create a basic text based version of this button config
 - Make a GUI version eventually.
     - Maybe have an input display that shows you when the buttons are being pressed? That would be good.
