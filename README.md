@@ -6,7 +6,7 @@ A button setting program for the game Brief Karate Foolish, written in Python
 
 Brief Karate Foolish shipped without config. This project aims to be a decent replacement.
 
-However, there *is* a way to change the effects joystick buttons have - there is the config file located in `./Brief Karate Foolish/System/SFWinKey.TXT` that basically describes (in Japanese unfortunately) how to set the buttons. Basically, buttons 1, 2, 3... are represented by letters in the config file as a, b, c... and so on. The first 4 letters correspond to Light, Medium, Heavy and Special respectively, at least for Brief Karate Foolish.
+However, there *is* a way to change the effects joystick buttons have - there is the config file located in `./Brief Karate Foolish/System/SFWinKey.TXT` that basically describes (in Japanese unfortunately) how to set the buttons. Basically, buttons 1, 2, 3... on your joystick (as reported on Windows in Devices and Printers) are represented by letters in the config file as a, b, c... and so on. The first 4 letters correspond to Light, Medium, Heavy and Special respectively, at least for Brief Karate Foolish.
 
 So to set buttons 1, 4, 6, and 2 to L, M, H and SP respectively, one would write  
 `adfb[wxyz]`
