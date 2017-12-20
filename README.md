@@ -4,7 +4,7 @@ A button setting program for the game Brief Karate Foolish, written in Python
 
 ### Background
 
-Brief Karate Foolish shipped without config. This project aims to be a decent replacement.
+Brief Karate Foolish shipped without button config. This project aims to be a decent replacement.
 
 However, there *is* a way to change the effects joystick buttons have - there is the config file located in `./Brief Karate Foolish/System/SFWinKey.TXT` that basically describes (in Japanese unfortunately) how to set the buttons. Basically, buttons 1, 2, 3... on your joystick (as reported on Windows in Devices and Printers) are represented by letters in the config file as a, b, c... and so on. The first 4 letters correspond to Light, Medium, Heavy and Special respectively, at least for Brief Karate Foolish.
 
@@ -41,10 +41,12 @@ Most people should just download the builds I make though. Make sure to add a **
 
 ### TODO:
 
-- Learn the basics of joystick handling through PyGame
+- ~~Learn the basics of joystick handling through PyGame~~  
+- ~~Create a basic text based version of this button config~~  
+    - These are done (2017-12-20), but now we have to output a `SFWinKey.TXT` file, and in the right folder.  
+    Hopefully we can make it so that it takes into account the player 1/2 choice that currently does absolutely nothing.
 - Learn how to package Python projects as executables.
     - Add a **Download** header once a build is created.
-- Create a basic text based version of this button config
 - Make a GUI version eventually.
     - Maybe have an input display that shows you when the buttons are being pressed? That would be good.
     - It would also be good to make the GUI navigable with the joystick. POV hat/Y-axis to change selections, any button to interact with a selected element.
