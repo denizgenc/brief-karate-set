@@ -41,8 +41,8 @@ Most people should just download the builds I make though. Make sure to add a **
 
 ### TODO:
 
-~~- Learn the basics of joystick handling through PyGame~~
-~~- Create a basic text based version of this button config~~
+- ~~Learn the basics of joystick handling through PyGame~~  
+- ~~Create a basic text based version of this button config~~  
     - These are done (2017-12-20), but now we have to output a `SFWinKey.TXT` file, and in the right folder.  
     Hopefully we can make it so that it takes into account the player 1/2 choice that currently does absolutely nothing.
 - Learn how to package Python projects as executables.
