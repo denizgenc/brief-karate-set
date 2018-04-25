@@ -3,6 +3,8 @@ from pathlib import Path
 
 pygame.init()
 pygame.joystick.init()
+clock = pygame.time.Clock() # To limit framerate, prevents single button presses
+                            # being registered multiple times
 joystick_count = pygame.joystick.get_count()
 selection = 0
 
@@ -50,6 +52,8 @@ while len(mapping_key) < 4:
             print("Button {}".format(button))
             mapping_key += string.ascii_lowercase[button]
             next_button = True
+            break
+    clock.tick(60) # 60 frames per second
 
 print("mapping_key:", mapping_key)
 
